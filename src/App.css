@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header>h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 280px;
+  gap: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(60, 60, 61, 0.11);
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(55, 55, 56);
+  
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  
+
+}
+button{
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
