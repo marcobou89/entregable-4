@@ -15,10 +15,7 @@
 
 .app{
   display: flex;
-  max-width: 1024px;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
   gap: 20px;
   padding: 20px;
   
@@ -29,6 +26,7 @@
   justify-content: space-between;
   align-items: center;
   min-width: 280px;
+  max-width: 1440px;
   gap: 10px;
   border: 2px solid rgb(0, 0, 0);
   background-color: rgba(60, 60, 61, 0.11);
