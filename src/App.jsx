@@ -71,10 +71,6 @@ function App() {
 
         }
         </div>
-       
-       
-      
-
     </div>
   )
 }
